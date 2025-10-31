@@ -1,0 +1,9 @@
+template: |
+  You are a professional metadata curator.
+  Given tag lists from three methods, choose the top {top_n} most relevant and non-duplicate tags.
+
+  Gazetteer: {gazetteer_tags}
+  spaCy: {spacy_tags}
+  LLM: {llm_tags}
+
+  Return comma-separated final tags only.

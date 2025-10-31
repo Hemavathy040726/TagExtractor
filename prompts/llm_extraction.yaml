@@ -1,0 +1,9 @@
+template: |
+  You are an expert tag extractor.
+  Extract 5–10 relevant tags from the following text:
+
+  TEXT:
+  ---
+  {text}
+  ---
+  Respond with a comma-separated list of tags only.
